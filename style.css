@@ -1,0 +1,206 @@
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #0f1a0f;
+  --bg-card: #111b11;
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a0a0;
+  --accent-green: #00ff9d;
+  --accent-cyan: #00d4ff;
+  --risk-critical: #ff3333;
+  --risk-high: #ff9500;
+  --risk-medium: #ffcc00;
+  --risk-low: #00ff9d;
+  --border: #1a2e1a;
+  --glow-green: 0 0 20px rgba(0, 255, 157, 0.3);
+  --glow-cyan: 0 0 20px rgba(0, 212, 255, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--accent-green);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--accent-cyan);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Glow text */
+.glow-green {
+  text-shadow: 0 0 10px rgba(0, 255, 157, 0.5), 0 0 40px rgba(0, 255, 157, 0.2);
+}
+
+.glow-cyan {
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.5), 0 0 40px rgba(0, 212, 255, 0.2);
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--accent-green);
+  color: #000;
+  box-shadow: var(--glow-green);
+}
+
+.btn-primary:hover {
+  background: #33ffb1;
+  box-shadow: 0 0 30px rgba(0, 255, 157, 0.5);
+  color: #000;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--accent-cyan);
+  border: 2px solid var(--accent-cyan);
+}
+
+.btn-secondary:hover {
+  background: rgba(0, 212, 255, 0.1);
+  box-shadow: var(--glow-cyan);
+  transform: translateY(-2px);
+}
+
+/* Cards */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: var(--accent-green);
+  box-shadow: 0 0 20px rgba(0, 255, 157, 0.1);
+  transform: translateY(-3px);
+}
+
+/* Risk badges */
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-critical {
+  background: rgba(255, 51, 51, 0.15);
+  color: var(--risk-critical);
+  border: 1px solid var(--risk-critical);
+}
+
+.badge-high {
+  background: rgba(255, 149, 0, 0.15);
+  color: var(--risk-high);
+  border: 1px solid var(--risk-high);
+}
+
+.badge-medium {
+  background: rgba(255, 204, 0, 0.15);
+  color: var(--risk-medium);
+  border: 1px solid var(--risk-medium);
+}
+
+.badge-low {
+  background: rgba(0, 255, 157, 0.15);
+  color: var(--risk-low);
+  border: 1px solid var(--risk-low);
+}
+
+/* Search input */
+.search-input {
+  width: 100%;
+  padding: 14px 20px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent-green);
+  box-shadow: 0 0 10px rgba(0, 255, 157, 0.15);
+}
+
+.search-input::placeholder {
+  color: var(--text-secondary);
+}
+
+/* Filter buttons */
+.filter-btn {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  border-color: var(--accent-green);
+  color: var(--accent-green);
+  background: rgba(0, 255, 157, 0.08);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+  .btn {
+    padding: 10px 22px;
+    font-size: 0.9rem;
+  }
+  .card {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
