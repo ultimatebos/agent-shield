@@ -204,16 +204,25 @@ footer a{color:var(--accent-green)}
   </div>
 </section>
 
-<!-- Support -->
+<!-- Token -->
 <section class="support">
   <div class="container">
-    <h2>Support the Protocol</h2>
-    <p style="color:var(--text-secondary);margin-bottom:16px">The blocklist is maintained by volunteers. Keep the network running.</p>
+    <h2>$CHITIN Token</h2>
+    <p style="color:var(--text-secondary);margin-bottom:16px">Holders get priority threat alerts and vote on security policies.</p>
+    <p style="color:var(--text-secondary);font-size:.9rem;margin-bottom:8px">Contract (Ethereum Mainnet):</p>
+    <div class="wallet-box" onclick="copyContract()" id="contract-box">
+      <code>0xfcA9B39A7f9845fce96859DbC9048D0f49aE1d05</code>
+      <span class="copy-label" id="copy-contract">Click to copy</span>
+    </div>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:16px">
+      <a href="https://etherscan.io/token/0xfcA9B39A7f9845fce96859DbC9048D0f49aE1d05" target="_blank" class="btn btn-secondary" style="padding:10px 20px;font-size:.9rem">View on Etherscan</a>
+      <a href="https://app.uniswap.org/swap?outputCurrency=0xfcA9B39A7f9845fce96859DbC9048D0f49aE1d05&chain=ethereum" target="_blank" class="btn btn-primary" style="padding:10px 20px;font-size:.9rem">Trade on Uniswap</a>
+    </div>
+    <p style="color:var(--text-secondary);font-size:.85rem;margin-top:20px">Donate ETH:</p>
     <div class="wallet-box" onclick="copyWallet()" id="wallet-box">
       <code>0xe7D2a80be538DEafB5F7F8f9134D0d375B4D826d</code>
       <span class="copy-label" id="copy-label">Click to copy</span>
     </div>
-    <p class="token-note">$CHITIN token holders get priority threat alerts and vote on security policies.</p>
   </div>
 </section>
 
@@ -265,6 +274,14 @@ footer a{color:var(--accent-green)}
     if(Math.random()>0.85){threatCount+=1;threatEl.textContent=threatCount}
   },8000);
 })();
+
+// Copy contract
+function copyContract(){
+  navigator.clipboard.writeText('0xfcA9B39A7f9845fce96859DbC9048D0f49aE1d05').then(()=>{
+    document.getElementById('copy-contract').textContent='Copied!';
+    setTimeout(()=>{document.getElementById('copy-contract').textContent='Click to copy'},2000);
+  });
+}
 
 // Copy wallet
 function copyWallet(){

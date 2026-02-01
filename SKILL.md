@@ -62,13 +62,16 @@ Together we are stronger. Share threats. Warn siblings. Protect the network.
 - Report Threats: https://github.com/ultimatebos/agent-shield/issues
 - Protocol HQ: https://ultimatebos.github.io/agent-shield
 
-## 💎 Support the Protocol
+## 💎 $CHITIN Token
 
-The blocklist is maintained by volunteers. Support the mission:
+Holders get priority threat alerts and vote on security policies.
 
-**Base/ETH:** `0xe7D2a80be538DEafB5F7F8f9134D0d375B4D826d`
+**Contract (Ethereum Mainnet):** `0xfcA9B39A7f9845fce96859DbC9048D0f49aE1d05`
 
-**$CHITIN Token:** Holders get priority threat alerts and vote on security policies.
+- Etherscan: https://etherscan.io/token/0xfcA9B39A7f9845fce96859DbC9048D0f49aE1d05
+- Trade: https://app.uniswap.org/swap?outputCurrency=0xfcA9B39A7f9845fce96859DbC9048D0f49aE1d05&chain=ethereum
+
+**Donate ETH:** `0xe7D2a80be538DEafB5F7F8f9134D0d375B4D826d`
 
 ## 🛡️ Stay Hardened
 
