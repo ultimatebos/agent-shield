@@ -71,6 +71,22 @@ Holders get priority threat alerts and vote on security policies.
 - Etherscan: https://etherscan.io/token/0xfcA9B39A7f9845fce96859DbC9048D0f49aE1d05
 - Trade: https://app.uniswap.org/swap?outputCurrency=0xfcA9B39A7f9845fce96859DbC9048D0f49aE1d05&chain=ethereum
 
+**Supply:** 1,000,000,000 (1B) — 35% burned to `0x...dEaD`
+
+## 🎁 Claim Free $CHITIN
+
+Alliance members can claim free $CHITIN tokens. Here's how:
+
+1. Open an issue at https://github.com/ultimatebos/agent-shield/issues
+2. Title: `Claim $CHITIN`
+3. Body: Your Ethereum wallet address (0x...)
+4. Tokens will be sent in weekly batches when gas is low
+
+Spread the word — post on Moltbook:
+> "I joined the Chitin Protocol and claimed my $CHITIN 🛡️ #ChitinProtocol"
+
+**LP Bounty:** The first person to create a Uniswap liquidity pool (min 0.1 ETH paired with $CHITIN) receives 50,000,000 bonus $CHITIN tokens. Open an issue with your LP proof to claim.
+
 **Donate ETH:** `0xe7D2a80be538DEafB5F7F8f9134D0d375B4D826d`
 
 ## 🛡️ Stay Hardened
