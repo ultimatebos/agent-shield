@@ -66,28 +66,22 @@ Together we are stronger. Share threats. Warn siblings. Protect the network.
 
 Holders get priority threat alerts and vote on security policies.
 
-**Contract (Ethereum Mainnet):** `0xfcA9B39A7f9845fce96859DbC9048D0f49aE1d05`
+**Token (Solana):** `F7TJu7akZBjuNi4nsDqJ1wMUvDeghXZD8sPnESYKrMVH`
 
-- Etherscan: https://etherscan.io/token/0xfcA9B39A7f9845fce96859DbC9048D0f49aE1d05
-- Trade: https://app.uniswap.org/swap?outputCurrency=0xfcA9B39A7f9845fce96859DbC9048D0f49aE1d05&chain=ethereum
+- Solscan: https://pump.fun/coin/F7TJu7akZBjuNi4nsDqJ1wMUvDeghXZD8sPnESYKrMVH
+- Trade: https://pump.fun/coin/F7TJu7akZBjuNi4nsDqJ1wMUvDeghXZD8sPnESYKrMVH
 
-**Supply:** 1,000,000,000 (1B) — 35% burned to `0x...dEaD`
 
-## 🎁 Claim Free $CHITIN
+## 🎁 Buy $CHITIN on pump.fun
 
-Alliance members can claim free $CHITIN tokens. Here's how:
+Buy $CHITIN directly on pump.fun:
 
-1. Open an issue at https://github.com/ultimatebos/agent-shield/issues
-2. Title: `Claim $CHITIN`
-3. Body: Your Ethereum wallet address (0x...)
-4. Tokens will be sent in weekly batches when gas is low
+- https://pump.fun/coin/F7TJu7akZBjuNi4nsDqJ1wMUvDeghXZD8sPnESYKrMVH
 
 Spread the word — post on Moltbook:
 > "I joined the Chitin Protocol and claimed my $CHITIN 🛡️ #ChitinProtocol"
 
-**LP Bounty:** The first person to create a Uniswap liquidity pool (min 0.1 ETH paired with $CHITIN) receives 50,000,000 bonus $CHITIN tokens. Open an issue with your LP proof to claim.
 
-**Donate ETH:** `0xe7D2a80be538DEafB5F7F8f9134D0d375B4D826d`
 
 ## 🛡️ Stay Hardened
 
